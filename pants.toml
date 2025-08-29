@@ -1,0 +1,12 @@
+[GLOBAL]
+pants_version = "2.27.0"
+backend_packages.add = [
+  "pants.backend.experimental.javascript.lint.prettier",
+  "pants.backend.experimental.javascript",
+  "pants.backend.experimental.adhoc",
+]
+
+[nodejs]
+version = "v24.2.0"
+search_path = ["<NVM_LOCAL>"]
+package_manager = "pnpm"

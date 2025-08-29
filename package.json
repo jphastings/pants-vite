@@ -1,0 +1,24 @@
+{
+  "name": "pants-vite",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A toy site to show the issue with vite & pants",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist"
+  },
+  "author": "JP Hastings-Spital",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "daisyui": "^5.0.43",
+    "tailwindcss": "^4.1.8",
+    "vite": "^6.3.5",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.1.8"
+  },
+  "packageManager": "pnpm@10.12.1"
+}
